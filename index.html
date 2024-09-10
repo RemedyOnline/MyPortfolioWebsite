@@ -7,10 +7,11 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
-    <nav>
+    <nav class="fixed w-[100%]">
       <h4>AMP</h4>
       <div class="nav-items">
         <a href="#" class="text-white">Home</a>
@@ -22,8 +23,8 @@
       </div>
     </nav>
     <section class="hero">
-      <div class="heroContent">
-        <p class="">Hi There!</p>
+      <div class="w-[60%] px-[10%]">
+        <p class="bg-white">Hi There!</p>
         <h1 class="titleText">I'm Michael Agyemang Prempeh</h1>
         <h2 class="subtitleText">A <em>skilled</em> Web Developer/Designer</h2>
         <p class="defaultTextColor">
@@ -32,10 +33,10 @@
           vitae necessitatibus quaerat temporibus deserunt quos alias, doloribus
           totam, consequuntur nesciunt. Officia, quam?
         </p>
-        <button class="textSize">Hire me</button>
-        <button>View my Portfolio</button>
+        <button class="bg-[#0779E4] h-[53px] px-[24px] py-[16px] text-white font-bold rounded-lg	">Hire me</button>
+        <button class="bg-[white] h-[53px] px-[24px] py-[16px] text-[#0779E4] rounded-lg ml-1">View my Portfolio</button>
       </div>
-      <div><img src="assets/images/house.jpg" alt=""></div>
+      <!-- <div><img src="assets/images/house.jpg" alt="" /></div> -->
     </section>
   </body>
 </html>
