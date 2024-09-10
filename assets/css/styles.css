@@ -2,9 +2,10 @@
 
 nav {
     display: flex;
-    flex-direction: row; /*This line can be ommitted because the default direction is ROW already*/
-    justify-content: space-around;
-    height: 56px;
+    /* flex-direction: row;  */
+    /*This line can be ommitted because the default direction is ROW already*/
+    justify-content:space-around;
+    height: 60px;
     align-items: center;
     background-color: #0779E4;
     color: white;
@@ -23,7 +24,7 @@ nav {
 
 .hero {
     background-image: url(/assets/images/backgroundImage.jpg);
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
     padding-top: 50px;
     /* background-position: center; */
@@ -48,4 +49,5 @@ nav {
     padding-top: 50px;
     /* margin-top: 50px; */
     width: 50%;
+    margin-left: 50px;
 }
