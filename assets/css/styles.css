@@ -1,0 +1,51 @@
+/* This is the second CSS we applied to the page */
+
+nav {
+    display: flex;
+    flex-direction: row; /*This line can be ommitted because the default direction is ROW already*/
+    justify-content: space-around;
+    height: 56px;
+    align-items: center;
+    background-color: #0779E4;
+    color: white;
+}
+
+.nav-items {
+    display: flex; 
+    justify-content: space-between;
+    width: 50%;
+}
+
+.text-white {
+    color: white;
+    /* text-decoration: none; */
+}
+
+.hero {
+    background-image: url(/assets/images/backgroundImage.jpg);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 50px;
+    /* background-position: center; */
+}
+
+.titleText {
+    font-size: 60px;
+    color: white;
+}
+
+.subtitleText {
+    font-size: 48px;
+    color: rgb(231, 231, 231)
+}
+
+.defaultTextColor {
+    font-size: 18px;
+    color: white;
+}
+
+.heroContent {
+    padding-top: 50px;
+    /* margin-top: 50px; */
+    width: 50%;
+}

@@ -1,0 +1,49 @@
+/* This is the first CSS we applied on the page... */
+
+body {
+  background: rgb(167, 167, 167);
+}
+
+nav,
+section {
+  background: linear-gradient(
+    90deg,
+    rgba(193, 2, 212, 1) 0%,
+    rgba(100, 100, 199, 1) 50%,
+    rgba(0, 195, 235, 1) 100%
+  );
+  color: aliceblue;
+  font-size: 16pt;
+}
+
+button {
+    font-size: 12pt;
+    padding: 8pt;
+    background: linear-gradient(
+        90deg,
+        rgb(2, 212, 19) 0%,
+        rgb(199, 186, 10) 50%,
+        rgb(235, 120, 120) 100%
+      );
+      border-radius: 8pt;
+}
+
+a {
+  color: aquamarine;
+}
+
+#activee {
+  color: rgb(255, 238, 0);
+}
+
+.defaultTextColor {
+  color: rgb(139, 33, 33);
+}
+
+.textWeight {
+  font-weight: 900;
+}
+
+.textSize {
+  font-size: 12pt
+}
